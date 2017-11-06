@@ -38,6 +38,21 @@ section video {
   width: 100%;
 }
 
+section .memo {
+  font-size: 1.3rem;
+  color: #666;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+section .memo::before {
+  content: '[';
+}
+
+section .memo::after {
+  content: ']';
+}
+
 footer {
   text-align: center;
   font-size: 1.2rem;
