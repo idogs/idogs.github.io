@@ -30,6 +30,13 @@ section {
   font-size: 1.6rem;
 }
 
+section h3 .more {
+  float: right;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 section img {
   width: 100%;
 }
@@ -51,6 +58,22 @@ section .memo::before {
 
 section .memo::after {
   content: ']';
+}
+
+section table.grid {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+section table.grid thead th {
+  background-color: #eee;
+}
+
+section table.grid th,
+section table.grid td {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
 }
 
 footer {
