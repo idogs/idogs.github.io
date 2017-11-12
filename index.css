@@ -76,6 +76,14 @@ section table.grid td {
   padding: 5px 10px;
 }
 
+section table.grid tr.male td {
+  /* background-color: #D8EEFD; */
+}
+
+section table.grid tr.famale td {
+  /* background-color: #FFE7E7; */
+}
+
 footer {
   text-align: center;
   font-size: 1.2rem;
